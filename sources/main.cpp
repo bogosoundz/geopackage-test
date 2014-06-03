@@ -17,7 +17,7 @@ int main(int argc, char * argv[]) {
 	printf(" \nGPKG Attribute Filter \n");
 	executeProcess("/dados/temp/geopackage/deter.gpkg","","data = '2005-10-30'");
 	printf(" \nPG Attribute Filter \n");
-	executeProcess("PG:dbname=geopackage_test host=localhost user=postgres","public.deter","data = '2003-01-01'");
+	executeProcess("PG:dbname=geopackage_test host=localhost user=postgres  password=postgres","public.deter","data = '2003-01-01'");
 	printf(" \nSHP Attribute Filter \n");
 	executeProcess("/dados/temp/geopackage/deter.shp","","data = '2005-10-30'");
 
@@ -31,7 +31,7 @@ int main(int argc, char * argv[]) {
 	printf(" \nGPKG Spatial Filter BBOX\n");
 	executeProcess("/dados/temp/geopackage/deter.gpkg","","",env);
 	printf(" \nPG Spatial Filter BBOX \n");
-	executeProcess("PG:dbname=geopackage_test host=localhost user=postgres","public.deter","",env);
+	executeProcess("PG:dbname=geopackage_test host=localhost user=postgres  password=postgres","public.deter","",env);
 	printf(" \nSHP Spatial Filter BBOX \n");
 	executeProcess("/dados/temp/geopackage/deter.shp","","",env);
 
