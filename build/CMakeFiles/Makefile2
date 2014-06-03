@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /dados/workspaces/workspace-geopackage/gdal-geopackage-test
+CMAKE_SOURCE_DIR = /dados/workspaces/geopackage-test/geopackage-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /dados/workspaces/workspace-geopackage/gdal-geopackage-test/build
+CMAKE_BINARY_DIR = /dados/workspaces/geopackage-test/geopackage-test/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/main-test.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /dados/workspaces/workspace-geopackage/gdal-geopackage-test/b
 CMakeFiles/main-test.dir/all:
 	$(MAKE) -f CMakeFiles/main-test.dir/build.make CMakeFiles/main-test.dir/depend
 	$(MAKE) -f CMakeFiles/main-test.dir/build.make CMakeFiles/main-test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /dados/workspaces/workspace-geopackage/gdal-geopackage-test/build/CMakeFiles  1 2
+	$(CMAKE_COMMAND) -E cmake_progress_report /dados/workspaces/geopackage-test/geopackage-test/build/CMakeFiles  1 2
 	@echo "Built target main-test"
 .PHONY : CMakeFiles/main-test.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/main-test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /dados/workspaces/workspace-geopackage/gdal-geopackage-test/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /dados/workspaces/geopackage-test/geopackage-test/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main-test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /dados/workspaces/workspace-geopackage/gdal-geopackage-test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /dados/workspaces/geopackage-test/geopackage-test/build/CMakeFiles 0
 .PHONY : CMakeFiles/main-test.dir/rule
 
 # Convenience name for target.

@@ -11,5 +11,5 @@ file(GLOB sources
 )
 
 add_executable(main-test ${sources})
-include_directories("/dados/linux/gdal-1.12/include" headers)
-target_link_libraries(main-test /dados/linux/gdal-1.12/lib/libgdal.so)
+include_directories("/opt/gdal-trunk/include/" headers)
+target_link_libraries(main-test /opt/gdal-trunk/lib/libgdal.so)

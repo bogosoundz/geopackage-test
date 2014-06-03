@@ -8,18 +8,18 @@ int main(int argc, char * argv[]) {
 	OGRRegisterAll();
 
 	printf(" \nGPKG Full \n");
-	executeProcess("/dados/temp/geopackage/desflorestamento.gpkg");
-	printf(" \nPG Full \n");
-	executeProcess("PG:dbname=geopackage host=localhost user=postgres password=postgres","public.prodes_desflorestamento");
+	executeProcess("/dados/temp/geopackage/deter.gpkg");
+//	printf(" \nPG Full \n");
+//	executeProcess("PG:dbname=geopackage host=localhost user=postgres password=postgres","public.prodes_desflorestamento");
 	printf(" \nSHP Full \n");
-	executeProcess("/dados/temp/geopackage/desflorestamento.shp");
+	executeProcess("/dados/temp/geopackage/deter.shp");
 
-/*	printf(" \nGPKG Attribute Filter \n");
-	executeProcess("/dados/temp/geopackage/desflorestamento.gpkg","","data = '2003-01-01'");
-	printf(" \nPG Attribute Filter \n");
-	executeProcess("PG:dbname=terrabrasilis host=chronos port=5433 user=postgres","public.prodes_desflorestamento","data = '2003-01-01'");
+	printf(" \nGPKG Attribute Filter \n");
+	executeProcess("/dados/temp/geopackage/deter.gpkg","","data = '2005-10-30'");
+//	printf(" \nPG Attribute Filter \n");
+//	executeProcess("PG:dbname=terrabrasilis host=chronos port=5433 user=postgres","public.prodes_desflorestamento","data = '2003-01-01'");
 	printf(" \nSHP Attribute Filter \n");
-	executeProcess("/dados/temp/geopackage/desflorestamento.shp","","data = '2003-01-01'");*/
+	executeProcess("/dados/temp/geopackage/deter.shp","","data = '2005-10-30'");
 
 	OGREnvelope *env = new OGREnvelope();
 
@@ -28,12 +28,12 @@ int main(int argc, char * argv[]) {
 	env->MaxX =-43.9992790222168;
 	env->MaxY =5.16189336776733;
 
-/*	printf(" \nGPKG Spatial Filter BBOX\n");
-	executeProcess("/dados/temp/geopackage/desflorestamento.gpkg","","",env);
-	printf(" \nPG Spatial Filter BBOX \n");
-	executeProcess("PG:dbname=terrabrasilis host=chronos port=5433 user=postgres","public.prodes_desflorestamento","",env);
+	printf(" \nGPKG Spatial Filter BBOX\n");
+	executeProcess("/dados/temp/geopackage/deter.gpkg","","",env);
+//	printf(" \nPG Spatial Filter BBOX \n");
+//	executeProcess("PG:dbname=terrabrasilis host=chronos port=5433 user=postgres","public.prodes_desflorestamento","",env);
 	printf(" \nSHP Spatial Filter BBOX \n");
-	executeProcess("/dados/temp/geopackage/desflorestamento.shp","","",env);*/
+	executeProcess("/dados/temp/geopackage/deter.shp","","",env);
 
 	return 0;
 }

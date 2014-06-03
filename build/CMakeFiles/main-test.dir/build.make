@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /dados/workspaces/workspace-geopackage/gdal-geopackage-test
+CMAKE_SOURCE_DIR = /dados/workspaces/geopackage-test/geopackage-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /dados/workspaces/workspace-geopackage/gdal-geopackage-test/build
+CMAKE_BINARY_DIR = /dados/workspaces/geopackage-test/geopackage-test/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main-test.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/main-test.dir/flags.make
 
 CMakeFiles/main-test.dir/sources/main.cpp.o: CMakeFiles/main-test.dir/flags.make
 CMakeFiles/main-test.dir/sources/main.cpp.o: ../sources/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /dados/workspaces/workspace-geopackage/gdal-geopackage-test/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /dados/workspaces/geopackage-test/geopackage-test/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main-test.dir/sources/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main-test.dir/sources/main.cpp.o -c /dados/workspaces/workspace-geopackage/gdal-geopackage-test/sources/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main-test.dir/sources/main.cpp.o -c /dados/workspaces/geopackage-test/geopackage-test/sources/main.cpp
 
 CMakeFiles/main-test.dir/sources/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main-test.dir/sources/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /dados/workspaces/workspace-geopackage/gdal-geopackage-test/sources/main.cpp > CMakeFiles/main-test.dir/sources/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /dados/workspaces/geopackage-test/geopackage-test/sources/main.cpp > CMakeFiles/main-test.dir/sources/main.cpp.i
 
 CMakeFiles/main-test.dir/sources/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main-test.dir/sources/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /dados/workspaces/workspace-geopackage/gdal-geopackage-test/sources/main.cpp -o CMakeFiles/main-test.dir/sources/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /dados/workspaces/geopackage-test/geopackage-test/sources/main.cpp -o CMakeFiles/main-test.dir/sources/main.cpp.s
 
 CMakeFiles/main-test.dir/sources/main.cpp.o.requires:
 .PHONY : CMakeFiles/main-test.dir/sources/main.cpp.o.requires
@@ -77,17 +77,17 @@ CMakeFiles/main-test.dir/sources/main.cpp.o.provides.build: CMakeFiles/main-test
 
 CMakeFiles/main-test.dir/sources/Process.cpp.o: CMakeFiles/main-test.dir/flags.make
 CMakeFiles/main-test.dir/sources/Process.cpp.o: ../sources/Process.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /dados/workspaces/workspace-geopackage/gdal-geopackage-test/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /dados/workspaces/geopackage-test/geopackage-test/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main-test.dir/sources/Process.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main-test.dir/sources/Process.cpp.o -c /dados/workspaces/workspace-geopackage/gdal-geopackage-test/sources/Process.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main-test.dir/sources/Process.cpp.o -c /dados/workspaces/geopackage-test/geopackage-test/sources/Process.cpp
 
 CMakeFiles/main-test.dir/sources/Process.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main-test.dir/sources/Process.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /dados/workspaces/workspace-geopackage/gdal-geopackage-test/sources/Process.cpp > CMakeFiles/main-test.dir/sources/Process.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /dados/workspaces/geopackage-test/geopackage-test/sources/Process.cpp > CMakeFiles/main-test.dir/sources/Process.cpp.i
 
 CMakeFiles/main-test.dir/sources/Process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main-test.dir/sources/Process.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /dados/workspaces/workspace-geopackage/gdal-geopackage-test/sources/Process.cpp -o CMakeFiles/main-test.dir/sources/Process.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /dados/workspaces/geopackage-test/geopackage-test/sources/Process.cpp -o CMakeFiles/main-test.dir/sources/Process.cpp.s
 
 CMakeFiles/main-test.dir/sources/Process.cpp.o.requires:
 .PHONY : CMakeFiles/main-test.dir/sources/Process.cpp.o.requires
@@ -109,7 +109,7 @@ main__test_EXTERNAL_OBJECTS =
 main-test: CMakeFiles/main-test.dir/sources/main.cpp.o
 main-test: CMakeFiles/main-test.dir/sources/Process.cpp.o
 main-test: CMakeFiles/main-test.dir/build.make
-main-test: /dados/linux/gdal-1.12/lib/libgdal.so
+main-test: /opt/gdal-trunk/lib/libgdal.so
 main-test: CMakeFiles/main-test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable main-test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main-test.dir/link.txt --verbose=$(VERBOSE)
@@ -127,6 +127,6 @@ CMakeFiles/main-test.dir/clean:
 .PHONY : CMakeFiles/main-test.dir/clean
 
 CMakeFiles/main-test.dir/depend:
-	cd /dados/workspaces/workspace-geopackage/gdal-geopackage-test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /dados/workspaces/workspace-geopackage/gdal-geopackage-test /dados/workspaces/workspace-geopackage/gdal-geopackage-test /dados/workspaces/workspace-geopackage/gdal-geopackage-test/build /dados/workspaces/workspace-geopackage/gdal-geopackage-test/build /dados/workspaces/workspace-geopackage/gdal-geopackage-test/build/CMakeFiles/main-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /dados/workspaces/geopackage-test/geopackage-test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /dados/workspaces/geopackage-test/geopackage-test /dados/workspaces/geopackage-test/geopackage-test /dados/workspaces/geopackage-test/geopackage-test/build /dados/workspaces/geopackage-test/geopackage-test/build /dados/workspaces/geopackage-test/geopackage-test/build/CMakeFiles/main-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main-test.dir/depend
 

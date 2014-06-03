@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=gnu++11 -std=gnu++11 -g    CMakeFiles/main-test.dir/sources/main.cpp.o CMakeFiles/main-test.dir/sources/Process.cpp.o  -o main-test -rdynamic /dados/linux/gdal-1.12/lib/libgdal.so -Wl,-rpath,/dados/linux/gdal-1.12/lib 
+/usr/bin/c++    -std=gnu++11    CMakeFiles/main-test.dir/sources/main.cpp.o CMakeFiles/main-test.dir/sources/Process.cpp.o  -o main-test -rdynamic /opt/gdal-trunk/lib/libgdal.so -Wl,-rpath,/opt/gdal-trunk/lib 
