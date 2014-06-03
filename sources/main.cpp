@@ -9,15 +9,15 @@ int main(int argc, char * argv[]) {
 
 	printf(" \nGPKG Full \n");
 	executeProcess("/dados/temp/geopackage/deter.gpkg");
-//	printf(" \nPG Full \n");
-//	executeProcess("PG:dbname=geopackage host=localhost user=postgres password=postgres","public.prodes_desflorestamento");
+	printf(" \nPG Full \n");
+	executeProcess("PG:dbname=geopackage_test host=localhost user=postgres password=postgres","public.deter");
 	printf(" \nSHP Full \n");
 	executeProcess("/dados/temp/geopackage/deter.shp");
 
 	printf(" \nGPKG Attribute Filter \n");
 	executeProcess("/dados/temp/geopackage/deter.gpkg","","data = '2005-10-30'");
-//	printf(" \nPG Attribute Filter \n");
-//	executeProcess("PG:dbname=terrabrasilis host=chronos port=5433 user=postgres","public.prodes_desflorestamento","data = '2003-01-01'");
+	printf(" \nPG Attribute Filter \n");
+	executeProcess("PG:dbname=geopackage_test host=localhost user=postgres","public.deter","data = '2003-01-01'");
 	printf(" \nSHP Attribute Filter \n");
 	executeProcess("/dados/temp/geopackage/deter.shp","","data = '2005-10-30'");
 
@@ -30,8 +30,8 @@ int main(int argc, char * argv[]) {
 
 	printf(" \nGPKG Spatial Filter BBOX\n");
 	executeProcess("/dados/temp/geopackage/deter.gpkg","","",env);
-//	printf(" \nPG Spatial Filter BBOX \n");
-//	executeProcess("PG:dbname=terrabrasilis host=chronos port=5433 user=postgres","public.prodes_desflorestamento","",env);
+	printf(" \nPG Spatial Filter BBOX \n");
+	executeProcess("PG:dbname=geopackage_test host=localhost user=postgres","public.deter","",env);
 	printf(" \nSHP Spatial Filter BBOX \n");
 	executeProcess("/dados/temp/geopackage/deter.shp","","",env);
 
