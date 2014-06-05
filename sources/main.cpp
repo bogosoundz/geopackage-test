@@ -7,7 +7,7 @@ int main(int argc, char * argv[]) {
 
 	OGRRegisterAll();
 
-	printf(" \nGPKG Full \n");
+/*	printf(" \nGPKG Full \n");
 	executeProcess("/dados/temp/geopackage/desflorestamento.gpkg");
 	printf(" \nPG Full \n");
 	executeProcess("PG:dbname=geopackage_test host=localhost user=postgres password=postgres","public.prodes_desflorestamento");
@@ -15,11 +15,11 @@ int main(int argc, char * argv[]) {
 	executeProcess("/dados/temp/geopackage/desflorestamento.shp");
 
 	printf(" \nGPKG Attribute Filter \n");
-	executeProcess("/dados/temp/geopackage/desflorestamento.gpkg","","data = '2003-01-01'");
+	executeProcess("/dados/temp/geopackage/desflorestamento.gpkg","","data = '2003-01-01'");*/
 	printf(" \nPG Attribute Filter \n");
-	executeProcess("PG:dbname=geopackage_test host=localhost user=postgres  password=postgres","public.prodes_desflorestamento","data = '2003-01-01'");
-	printf(" \nSHP Attribute Filter \n");
-	executeProcess("/dados/temp/geopackage/desflorestamento.shp","","data = '2003-01-01'");
+	executeProcess("PG:dbname=geopackage_test host=localhost user=postgres  password=postgres","public.deter","data = '2005-10-30'");
+/*	printf(" \nSHP Attribute Filter \n");
+	executeProcess("/dados/temp/geopackage/desflorestamento.shp","","data = '2003-01-01'");*/
 
 	OGREnvelope *env = new OGREnvelope();
 
