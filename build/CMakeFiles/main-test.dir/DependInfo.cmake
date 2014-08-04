@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/dados/workspaces/geopackage-test/geopackage-test/sources/Process.cpp" "/dados/workspaces/geopackage-test/geopackage-test/build/CMakeFiles/main-test.dir/sources/Process.cpp.o"
-  "/dados/workspaces/geopackage-test/geopackage-test/sources/main.cpp" "/dados/workspaces/geopackage-test/geopackage-test/build/CMakeFiles/main-test.dir/sources/main.cpp.o"
+  "/dados/workspaces/workspace-geopackage/gdal-geopackage-test/sources/Process.cpp" "/dados/workspaces/workspace-geopackage/gdal-geopackage-test/build/CMakeFiles/main-test.dir/sources/Process.cpp.o"
+  "/dados/workspaces/workspace-geopackage/gdal-geopackage-test/sources/main.cpp" "/dados/workspaces/workspace-geopackage/gdal-geopackage-test/build/CMakeFiles/main-test.dir/sources/main.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,7 +15,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/opt/gdal-trunk/include"
+  "/dados/linux/gdal-trunk/include"
   "../headers"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

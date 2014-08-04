@@ -62,7 +62,7 @@ public:
 private:
 	void openData(std::string file, std::string layerName);
 	void iterateOverFeatures();
-	OGRDataSource *poDS;
+	GDALDataset *poDS;
 	OGRLayer *layer;
 	std::string attributeFilter;
 	OGRGeometry *spatialFilterGeom;

@@ -1,1 +1,1 @@
-/dados/workspaces/geopackage-test/geopackage-test/build/CMakeFiles/main-test.dir
+/dados/workspaces/workspace-geopackage/gdal-geopackage-test/build/CMakeFiles/main-test.dir

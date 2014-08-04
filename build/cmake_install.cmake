@@ -1,4 +1,4 @@
-# Install script for directory: /dados/workspaces/geopackage-test/geopackage-test
+# Install script for directory: /dados/workspaces/workspace-geopackage/gdal-geopackage-test
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/dados/workspaces/geopackage-test/geopackage-test/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/dados/workspaces/workspace-geopackage/gdal-geopackage-test/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/dados/workspaces/geopackage-test/geopackage-test/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/dados/workspaces/workspace-geopackage/gdal-geopackage-test/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

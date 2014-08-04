@@ -45,7 +45,7 @@
 							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.147026676" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
 							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.2113204025" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
 								<option id="gnu.both.asm.option.include.paths.1374034675" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="/dados/linux/gdal-1.12/include"/>
+									<listOptionValue builtIn="false" value="/dados/linux/gdal-trunk/include"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.404950659" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>

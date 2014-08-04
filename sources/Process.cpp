@@ -6,7 +6,8 @@
  */
 
 #include "Process.h"
-
+#include <gdal_priv.h>
+#include <gdal.h>
 
 using namespace std::chrono;
 
@@ -53,16 +54,19 @@ Process::~Process() {
 
 
 
-void Process::openData(std::string file, std::string layerName)
+void Process::openData( std::string file, std::string layerName)
 {
 	auto start = steady_clock::now();
 
-	poDS = OGRSFDriverRegistrar::Open(file.c_str(), FALSE );
+	GDALAllRegister();
+
+	poDS = (GDALDataset*) GDALOpenEx(file.c_str(), GDAL_OF_READONLY | GDAL_OF_VECTOR, NULL, NULL, NULL);
 	if( poDS == NULL )
 	{
 		printf( "Open failed.\n" );
 		exit( 1 );
 	}
+
 	if(layerName.empty())
 	{
 		layer = poDS->GetLayer(0);

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /dados/workspaces/geopackage-test/geopackage-test
+CMAKE_SOURCE_DIR = /dados/workspaces/workspace-geopackage/gdal-geopackage-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /dados/workspaces/geopackage-test/geopackage-test/build
+CMAKE_BINARY_DIR = /dados/workspaces/workspace-geopackage/gdal-geopackage-test/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /dados/workspaces/geopackage-test/geopackage-test/build/CMakeFiles /dados/workspaces/geopackage-test/geopackage-test/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /dados/workspaces/workspace-geopackage/gdal-geopackage-test/build/CMakeFiles /dados/workspaces/workspace-geopackage/gdal-geopackage-test/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /dados/workspaces/geopackage-test/geopackage-test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /dados/workspaces/workspace-geopackage/gdal-geopackage-test/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
